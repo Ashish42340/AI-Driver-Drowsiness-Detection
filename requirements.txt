@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────
+#  Driver Drowsiness Detection System
+#  requirements.txt
+#
+#  Install all dependencies with:
+#      pip install -r requirements.txt
+# ─────────────────────────────────────────────────
+
+# Core image processing library
+opencv-python==4.9.0.80
+
+# Google's real-time face / body landmark detection
+mediapipe==0.10.13
+
+# Numerical computing (arrays, math)
+numpy==1.26.4
+
+
+
+# Audio playback for alarm sound
+pygame==2.5.2
+
+# Utility helpers for OpenCV (resize, image manipulation)
+imutils==0.5.4
+
+# Euclidean distance calculation (used in EAR formula)
+scipy==1.13.0
