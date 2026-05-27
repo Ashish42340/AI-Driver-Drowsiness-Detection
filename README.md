@@ -478,82 +478,8 @@ Key highlights:
 ✅ Optimized for low-end laptops (CPU-only)
 
 Tech Stack: Python | OpenCV | MediaPipe | NumPy | SciPy | Pygame
-```
 
----
-
-### 21. PPT SLIDE CONTENT
-
-**Slide 1 – Title**
-- Title: Driver Drowsiness Detection System
-- Subtitle: A Real-Time AI-Based Safety System
-- Author: [Your Name] | [College Name] | [Year]
-
-**Slide 2 – The Problem**
-- 20% of road accidents are caused by drowsy drivers
-- Equivalent to drunk driving in terms of impairment
-- No low-cost real-time solution for ordinary vehicles
-- Image: highway accident statistics chart
-
-**Slide 3 – Our Solution**
-- Real-time eye monitoring via webcam
-- AI facial landmark detection
-- Mathematical EAR-based classification
-- Instant audio alarm on drowsiness
-
-**Slide 4 – Technologies Used**
-- Python 3 | OpenCV | MediaPipe | NumPy | Pygame
-- Brief one-liner on each technology
-
-**Slide 5 – System Architecture**
-- Flow diagram: Webcam → MediaPipe → EAR → Logic → Alarm/Display
-
-**Slide 6 – Eye Aspect Ratio (EAR)**
-- Diagram showing 6 eye landmark points
-- Formula: EAR = (||p2-p6|| + ||p3-p5||) / (2||p1-p4||)
-- Graph: EAR value over time (spike down during blink)
-
-**Slide 7 – MediaPipe Face Mesh**
-- What it is (Google AI landmark model)
-- 468 face points diagram
-- Eye points highlighted
-
-**Slide 8 – Algorithm Flow**
-- EAR < 0.25 for N consecutive frames → ALARM
-- State machine: AWAKE → DROWSY → SLEEPING
-
-**Slide 9 – Live Demo Screenshots**
-- Screenshot 1: Normal state (green eye outlines, AWAKE status)
-- Screenshot 2: Drowsy state (red outlines)
-- Screenshot 3: Alarm state (red banner)
-
-**Slide 10 – Results**
-- Works at 25-30 FPS on standard laptop
-- Detection latency: ~0.67 seconds
-- Alarm triggers reliably in controlled tests
-
-**Slide 11 – Advantages & Limitations**
-- Table: Advantages vs Limitations
-
-**Slide 12 – Future Scope**
-- Yawning detection
-- SMS/Email alerts
-- Raspberry Pi embedded system
-- Deep learning model
-
-**Slide 13 – Conclusion**
-- Low-cost, real-time, webcam-based driver safety system
-- Demonstrates practical AI/CV applications
-- Scalable to advanced hardware
-
-**Slide 14 – References**
-- Soukupová & Čech (2016) – Real-Time Eye Blink Detection using Facial Landmarks
-- MediaPipe Documentation – Google
-- OpenCV Official Documentation
-
----
-
-### 22. CONCLUSION
+### 21. CONCLUSION
 
 This Driver Drowsiness Detection System demonstrates how modern AI and Computer Vision tools can be combined to solve a real-world safety problem. Using only a webcam, a Python environment, and free open-source libraries, we built a system that:
 
